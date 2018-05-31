@@ -1,0 +1,404 @@
+<div id="singleview">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-4">
+        <img class="card-img-top" src="../assets/images/{{data.Name}}.png" alt="Card image cap">
+    </div>
+    
+    <div class="col-md-6 bold">
+        {{data.Name}}
+        <br>
+        {{data.Nationality}}
+<br>
+<ngb-rating [(rate)]="data.Rating"  [readonly]="true" max="5"></ngb-rating>
+<br> 
+{{data.Club}}
+<br>
+Age: {{data.Age}}
+<br>Height:{{data.Height}} <br>
+Weight:{{data.Weight}}
+<br>
+       
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-md-6 right">
+        National Position
+    </div>
+    <div class="col-md-6 left">
+      {{data.National_Position}}
+      </div>
+  </div>
+  
+
+  
+  <div class="row">
+      <div class="col-md-6 right">
+          National Kit
+      </div>
+      <div class="col-md-6 left">
+      {{data.National_Kit}}   
+        </div>
+    </div>
+ 
+  
+  <div class="row">
+      <div class="col-md-6 right">
+          Club Position
+      </div>
+      <div class="col-md-6 left">
+        {{data.Club_Position}} 
+        </div>
+    </div>
+    
+  <div class="row">
+      <div class="col-md-6 right">
+         Club Kit
+      </div>
+      <div class="col-md-6 left">
+        {{data.Club_Kit}} 
+        </div>
+    </div>
+    
+  <div class="row">
+      <div class="col-md-6 right">
+          Club Joining
+      </div>
+      <div class="col-md-6 left">
+        {{data.Club_Joining}} 
+        </div>
+    </div>
+    
+  <div class="row">
+      <div class="col-md-6 right">
+          Contract Expiry
+      </div>
+      <div class="col-md-6 left">
+       {{data.Contract_Expiry}}  
+        </div>
+    </div>
+    
+
+  
+     
+  <div class="row">
+      <div class="col-md-6 right">
+          Preffered Foot
+      </div>
+      <div class="col-md-6 left">
+        {{data.Preffered_Foot}} 
+        </div>
+    </div>
+    
+  <div class="row">
+      <div class="col-md-6 right">
+          Birth Date
+      </div>
+      <div class="col-md-6 left">
+         {{data.Birth_Date}} 
+        </div>
+    </div>
+   
+  <div class="row">
+      <div class="col-md-6 right">
+          Preffered Position
+      </div>
+      <div class="col-md-6 left">
+          {{data.Preffered_Position}} 
+        </div>
+    </div>
+   
+  
+  <div class="row">
+      <div class="col-md-6 right">
+          Work Rate
+      </div>
+      <div class="col-md-6 left">
+            {{data.Work_Rate}}
+        </div>
+    </div>
+ 
+  <div class="row">
+      <div class="col-md-6 right">
+          Weak_foot
+      </div>
+      <div class="col-md-6 left">
+            {{data.Weak_foot}} 
+        </div>
+    </div>
+
+  <div class="row">
+      <div class="col-md-6 right">
+          Skill_Moves
+      </div>
+      <div class="col-md-6 left">
+         {{data.Skill_Moves}} 
+        </div>
+    </div>
+   
+  <div class="row">
+      <div class="col-md-6 right">
+          Ball_Control
+      </div>
+      <div class="col-md-6 left">
+        {{data.Ball_Control}}
+        </div>
+    </div>
+     
+  <div class="row">
+      <div class="col-md-6 right">
+          Dribbling
+      </div>
+      <div class="col-md-6 left">
+         {{data.Dribbling}} 
+        </div>
+    </div>
+   
+  <div class="row">
+      <div class="col-md-6 right">
+          Marking
+      </div>
+      <div class="col-md-6 left">
+        {{data.Marking}} 
+        </div>
+    </div>
+    
+  <div class="row">
+      <div class="col-md-6 right">
+         
+      </div>
+      <div class="col-md-6 left">
+        
+        </div>
+    </div>
+
+    {{data.Sliding_Tac}} <div class="row">
+        <div class="col-md-6 right">
+            Standing Ta
+        </div>
+        <div class="col-md-6 left">
+            {{data.Standing_Ta}}
+          </div>
+      </div>
+  
+
+   <div class="row">
+        <div class="col-md-6 right">
+            Aggression
+        </div>
+        <div class="col-md-6 left">
+            {{data.Aggression}}
+          </div>
+      </div>
+    
+    <div class="row">
+      <div class="col-md-6 right">
+          Interception
+      </div>
+      <div class="col-md-6 left">
+         {{data.Interception}}
+        </div>
+    </div>
+        <div class="row">
+      <div class="col-md-6 right">
+          Vision
+      </div>
+      <div class="col-md-6 left">
+        {{data.Vision}} 
+        </div>
+    </div>
+     <div class="row">
+      <div class="col-md-6 right">
+          Composure
+      </div>
+      <div class="col-md-6 left">
+        {{data.Composure}}
+        </div>
+    </div>
+            <div class="row">
+      <div class="col-md-6 right">
+          Crossing
+      </div>
+      <div class="col-md-6 left">
+          {{data.Crossing}}
+        </div>
+    </div>
+     <div class="row">
+      <div class="col-md-6 right">
+          Short_Pass
+      </div>
+      <div class="col-md-6 left">
+        {{data.Short_Pass}} 
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 right">
+          Long_Pass
+      </div>
+      <div class="col-md-6 left">
+         {{data.Long_Pass}}
+        </div>
+    </div>
+     <div class="row">
+      <div class="col-md-6 right">
+          Acceleration
+      </div>
+      <div class="col-md-6 left">
+        {{data.Acceleration}}
+        </div>
+    </div>
+     <div class="row">
+      <div class="col-md-6 right">
+          Speed
+      </div>
+      <div class="col-md-6 left">
+        {{data.Speed}} 
+        </div>
+    </div>
+           <div class="row">
+      <div class="col-md-6 right">
+          Stamina
+      </div>
+      <div class="col-md-6 left">
+         {{data.Stamina}} 
+        </div>
+    </div> 
+          <div class="row">
+      <div class="col-md-6 right">
+          Strength
+      </div>
+      <div class="col-md-6 left">
+         {{data.Strength}} 
+        </div>
+    </div>    
+             <div class="row">
+      <div class="col-md-6 right">
+          Balance
+      </div>
+      <div class="col-md-6 left">
+        {{data.Balance}}
+        </div>
+    </div> 
+          <div class="row">
+      <div class="col-md-6 right">
+          Agility
+      </div>
+      <div class="col-md-6 left">
+         {{data.Agility}}  
+        </div>
+    </div> 
+          <div class="row">
+      <div class="col-md-6 right">
+          Jumping
+      </div>
+      <div class="col-md-6 left">
+         {{data.Jumping}}
+        </div>
+    </div>
+       <div class="row">
+      <div class="col-md-6 right">
+          Heading
+      </div>
+      <div class="col-md-6 left">
+         {{data.Heading}}
+        </div>
+    </div>
+                <div class="row">
+      <div class="col-md-6 right">
+          Shot_Power
+      </div>
+      <div class="col-md-6 left">
+        {{data.Shot_Power}}
+        </div>
+    </div>
+     <div class="row">
+      <div class="col-md-6 right">
+          Finishing
+      </div>
+      <div class="col-md-6 left">
+        {{data.Finishing}}
+        </div>
+    </div>
+   <div class="row">
+      <div class="col-md-6 right">
+          Long_Shots
+      </div>
+      <div class="col-md-6 left">
+         {{data.Long_Shots}} 
+        </div>
+    </div>
+  <div class="row">
+      <div class="col-md-6 right">
+          Curve
+      </div>
+      <div class="col-md-6 left">
+          {{data.Curve}} 
+        </div>
+    </div>
+         <div class="row">
+      <div class="col-md-6 right">
+          Freekick_Accy
+      </div>
+      <div class="col-md-6 left">
+        {{data.Freekick_Accy}}
+        </div>
+    </div>
+  <div class="row">
+      <div class="col-md-6 right">
+          Penalties
+      </div>
+      <div class="col-md-6 left">
+           {{data.Penalties}}
+        </div>
+    </div>
+  <div class="row">
+      <div class="col-md-6 right">
+          Volleys
+      </div>
+      <div class="col-md-6 left">
+          {{data.Volleys}} 
+        </div>
+    </div>
+         <div class="row">
+      <div class="col-md-6 right">
+          GK_Position
+      </div>
+      <div class="col-md-6 left">
+         {{data.GK_Position}}
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 right">
+          GK_Diving
+      </div>
+      <div class="col-md-6 left">
+         {{data.GK_Diving}}
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 right">
+          GK_Kicking
+      </div>
+      <div class="col-md-6 left">
+        {{data.GK_Kicking}} 
+        </div>
+    </div>
+  <div class="row">
+      <div class="col-md-6 right">
+          GK_Handling
+      </div>
+      <div class="col-md-6 left">
+          {{data.GK_Handling}} 
+        </div>
+    </div>
+ <div class="row">
+      <div class="col-md-6 right">
+          GK_Reflexes
+      </div>
+      <div class="col-md-6 left">
+           {{data.GK_Reflexes}} 
+        </div>
+    </div>
+</div>
